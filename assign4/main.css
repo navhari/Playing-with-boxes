@@ -1,0 +1,21 @@
+#container{
+    width: 300px;
+    height:300px;
+    margin:0 auto;
+    display:block;
+    clear:both;
+    background-color: blue;
+}
+
+.box{
+    float:left;
+    width:100px;
+    height:100px;
+
+}
+.column-green{
+    background-color:green;
+}
+.column-red{
+    background-color:red;
+}
