@@ -2,24 +2,32 @@
  * Created by Anil on 10-09-2015.
  */
 var boxDiv= document.getElementById("box");
+//var containerDiv= document.getElementById("container");
+
+var leftposition=100;
+var topposition=100;
 
 function upFunction(){
 
-   boxDiv.style.top= boxDiv+boxDiv.style.top-"100px";
+   topposition=topposition-100;
+    boxDiv.style.top=topposition.toString()+"px";
 
 }
 
 function downFunction(){
-    boxDiv.style.top= boxDiv+boxDiv.style.top+"100px";
+    topposition=topposition+100;
+    boxDiv.style.top=topposition.toString()+"px";
 
 }
 
 function leftFunction(){
-    boxDiv.style.left="100px";
+    leftposition=leftposition-100;
+    boxDiv.style.left=leftposition.toString()+"px";
 
 }
 
 function rightFunction(){
-    boxDiv.style.left="200px";
+    leftposition=leftposition+100;
+    boxDiv.style.left=leftposition.toString()+"px";
 
 }
